@@ -1,0 +1,75 @@
+.x {
+    transform: rotateX(130deg);
+}
+
+.y {
+    transform: rotateY(130deg);
+}
+
+.z {
+    transform: rotateZ(270deg);
+}
+
+.three {
+    transform: rotate3d(0, 1, 0, 160deg);
+    background-color: pink;
+    width: 120px;
+    height: 80px;
+}
+
+.test {
+    background-color:lightblue;
+    width: 120px;
+    height: 80px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+.x .x-tooltip-text {
+    visibility: hidden;
+    width: 100px;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.x:hover .x-tooltip-text {
+    visibility: visible;
+}
+
+.y .y-tooltip-text {
+    visibility: hidden;
+    width: 100px;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.y:hover .y-tooltip-text {
+    visibility: visible;
+}
+
+.z .z-tooltip-text {
+    visibility: hidden;
+    width: 100px;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.z:hover .z-tooltip-text {
+    visibility: visible;
+}
+
+.three .three-tooltip-text {
+    visibility: hidden;
+    width: 100px;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.three:hover .three-tooltip-text {
+    visibility: visible;
+}
